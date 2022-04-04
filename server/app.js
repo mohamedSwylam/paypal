@@ -2,7 +2,7 @@ var paypal = require('paypal-rest-sdk');
 var express=require('express');
 var app =express();
 paypal.configure({
-    'mode': 'sandbox', //sandbox or live
+    'mode': 'live', //sandbox or live
     'client_id': 'AeOrJXuwFryLyB76wgP5-IJeOm_x4tqXwCEqQxsZe1i_XIFEACvon9QjUXwc2BXynL6DvPtAA1egcmzf',
     'client_secret': 'EFEVDBvPPgdSVIIBKkv6QaqbqswUGYTp-BpL7jVqAPai3chTqG0XYYE-2-_FvBGPAQLuRnHE0QGjmwE8'
   });
